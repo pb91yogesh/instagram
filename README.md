@@ -53,7 +53,7 @@ $ docker run --rm -it yogeshpcte/instagram
 ### Find Me on :
 <p align="left">
   <a href="https://github.com/yogeshpcte" target="_blank"><img src="https://img.shields.io/badge/Github-Yogeshpcte-green?style=for-the-badge&logo=github"></a>
-  <a href="https://www.instagram.com/" target="_blank"><img src="https://img.shields.io/badge/IG-%40tahmid.rayat-red?style=for-the-badge&logo=instagram"></a>
-  <a href="http://yogesh.rf.gd/?i=1" target="_blank"><img src="https://img.shields.io/badge/Chat-Messenger-blue?style=for-the-badge&logo=messenger"></a>
+  <a href="https://www.instagram.com/" target="_blank"><img src="https://img.shields.io/badge/IG-%40yogesh-red?style=for-the-badge&logo=instagram"></a>
+  <a href="http://yogesh.rf.gd/?i=1" target="_blank"><img src="https://img.shields.io/badge/website?style=for-the-badge&logo=website"></a>
 </p>
 
