@@ -1,6 +1,6 @@
 #!/bin/bash
 
-##   Zphisher 	: 	Instagarm Phishing Tool
+##   Instagram 	: 	Instagram Phishing Tool
 ##   Author 	: 	Yogesh 
 ##   Version 	: 	5.6
 ##   Github 	: 	https://github.com/Yogeshpcte
