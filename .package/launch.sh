@@ -8,5 +8,5 @@ else
 	export INSTAGRAM_ROOT="/usr/opt/instagram"
 fi
 
-cd $INSTARAGM_ROOT
+cd $INSTAGRAM_ROOT
 bash ./instagram.sh
