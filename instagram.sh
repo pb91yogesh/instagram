@@ -1,29 +1,18 @@
 #!/bin/bash
 
-##   Zphisher 	: 	Automated Phishing Tool
-##   Author 	: 	TAHMID RAYAT 
-##   Version 	: 	2.2
-##   Github 	: 	https://github.com/htr-tech
-
-##   THANKS TO :
-##   Aditya Shakya - https://github.com/adi1090x
-##   1RaY-1 - https://github.com/1RaY-1
-##   Moises Tapia - https://github.com/MoisesTapia
-##   TheLinuxChoice - https://twitter.com/linux_choice
-##   DarksecDevelopers  - https://github.com/DarksecDevelopers
-##   Ignitetch  - https://github.com/Ignitetch/AdvPhishing
-##   Võ Ngọc Bảo - https://github.com/vongocbao
-##   Mustakim Ahmed - https://www.facebook.com/Learn.Termux.009
+##   Zphisher 	: 	Instagarm Phishing Tool
+##   Author 	: 	Yogesh 
+##   Version 	: 	5.6
+##   Github 	: 	https://github.com/Yogeshpcte
 
 
-## If you Copy Then Give the credits :)
+## If you Copy Then Give the credits to https://github.com/Yogeshpcte:)
 
 
 
-##                   GNU GENERAL PUBLIC LICENSE
-##                    Version 3, 29 June 2007
+
 ##
-##    Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+##   
 ##    Everyone is permitted to copy and distribute verbatim copies
 ##    of this license document, but changing it is not allowed.
 ##
@@ -90,7 +79,7 @@
 ##    The precise terms and conditions for copying, distribution and
 ##    modification follow.
 ##
-##      Copyright (C) 2021  HTR-TECH (https://github.com/htr-tech)
+##      Copyright (C) 2022  Yogeshpcte (https://github.com/yogeshpcte)
 ##
 
 
@@ -150,13 +139,6 @@ kill_pid() {
 }
 
 
-
-
-
-
-
-
-
 ## Banner
 banner() {
 	cat <<- EOF
@@ -164,12 +146,13 @@ banner() {
 		${ORANGE}██║░░██║██╔══██╗██╔══██╗██║░██╔╝██║████╗░██║██╔════╝░
 		${ORANGE}███████║███████║██║░░╚═╝█████═╝░██║██╔██╗██║██║░░██╗░
 		${ORANGE}██╔══██║██╔══██║██║░░██╗██╔═██╗░██║██║╚████║██║░░╚██╗
-		${ORANGE}╚═╝░░╚═╝╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝╚═╝╚═╝░░╚══╝░╚═════╝░     
-        ${RED}         █▀▀▄ █──█ 
+		${ORANGE}╚═╝░░╚═╝╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝╚═╝╚═╝░░╚══╝░╚═════╝░ 
+		${white}
+                ${RED}         █▀▀▄ █──█ 
 		${RED}         █▀▀▄ █▄▄█       
-		${RED}         ▀▀▀─ ▄▄▄█       █▄█ █▀█ █▀▀ █▀▀ █▀ █░█  
-		${RED}                         ░█░ █▄█ █▄█ ██▄ ▄█ █▀█              ${RED}Version : 5.6
-		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
+		${RED}         ▀▀▀─ ▄▄▄█ ${green}      █▄█ █▀█ █▀▀ █▀▀ █▀ █░█  
+		${RED}                   ${green}      ░█░ █▄█ █▄█ ██▄ ▄█ █▀█              ${RED}Version : 5.6
+		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by yogesh (instagram)${WHITE}
 	EOF
 }
 
@@ -182,7 +165,7 @@ banner_small() {
 		${BLUE}
 		${BLUE}  ─▀─ █▀▀▄ █▀▀ ▀▀█▀▀ █▀▀█ █▀▀▀ █▀▀█ █▀▀█ █▀▄▀█ 
 		${BLUE}  ▀█▀ █──█ ▀▀█ ──█── █▄▄█ █─▀█ █▄▄▀ █▄▄█ █─▀─█ 
-		${BLUE}  ▀▀▀ ▀──▀ ▀▀▀ ──▀── ▀──▀ ▀▀▀▀ ▀─▀▀ ▀──▀ ▀───▀${WHITE} 2.2
+		${BLUE}  ▀▀▀ ▀──▀ ▀▀▀ ──▀── ▀──▀ ▀▀▀▀ ▀─▀▀ ▀──▀ ▀───▀${WHITE} 5.6
 	EOF
 }
 
@@ -305,7 +288,7 @@ install_cloudflared() {
 ## Exit message
 msg_exit() {
 	{ clear; banner; echo; }
-	echo -e "${GREENBG}${BLACK} Thank you for using this tool. Have a good day.${RESETBG}\n"
+	echo -e "${GREENBG}${BLACK} Thank you from yogesh for using this tool. Have a good day.${RESETBG}\n"
 	{ reset_color; exit 0; }
 }
 
@@ -313,17 +296,16 @@ msg_exit() {
 about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-		${GREEN}Author   ${RED}:  ${ORANGE}TAHMID RAYAT ${RED}[ ${ORANGE}HTR-TECH ${RED}]
-		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/htr-tech
-		${GREEN}Social   ${RED}:  ${CYAN}https://linktr.ee/tahmid.rayat
-		${GREEN}Version  ${RED}:  ${ORANGE}2.2
+		${GREEN}Author   ${RED}:  ${ORANGE}Yogesh ${RED}[ ${ORANGE}instagram ${RED}]
+		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/yogeshpcte
+		${GREEN}Social   ${RED}:  ${CYAN}http://yogesh.rf.gd/?i=1
+		${GREEN}Version  ${RED}:  ${ORANGE}5.6
 
-		${REDBG}${WHITE} Thanks : Adi1090x,MoisesTapia,ThelinuxChoice
-								  DarkSecDevelopers,Mustakim Ahmed,1RaY-1 ${RESETBG}
+		
 
 		${RED}Warning:${WHITE}
 		${CYAN}This Tool is made for educational purpose only ${RED}!${WHITE}
-		${CYAN}Author will not be responsible for any misuse of this toolkit ${RED}!${WHITE}
+		${CYAN}I will not be responsible for any misuse of this tool ${RED}!${WHITE}
 
 		${RED}[${WHITE}00${RED}]${ORANGE} Main Menu     ${RED}[${WHITE}99${RED}]${ORANGE} Exit
 
@@ -402,7 +384,7 @@ start_ngrok() {
 	echo -ne "\n\n${RED}[${WHITE}-${RED}]${GREEN} Launching Ngrok..."
 
     if [[ `command -v termux-chroot` ]]; then
-        sleep 2 && termux-chroot ./.server/ngrok http "$HOST":"$PORT" > /dev/null 2>&1 & # Thanks to Mustakim Ahmed (https://github.com/BDhackers009)
+        sleep 2 && termux-chroot ./.server/ngrok http "$HOST":"$PORT" > /dev/null 2>&1 & 
     else
         sleep 2 && ./.server/ngrok http "$HOST":"$PORT" > /dev/null 2>&1 &
     fi
