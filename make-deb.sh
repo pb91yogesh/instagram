@@ -1,6 +1,6 @@
 #!/bin/bash
 PACKAGE_NAME=instagram
-ZPHISHER_VERSION=5.6
+INSTAGRAM_VERSION=5.6
 PACKAGE_ARCH=all
 DISTRO=$(uname -o)
 
@@ -24,10 +24,10 @@ build_package() {
 	mkdir -p ./package/"$path_part"usr/opt
 	cp -rf ./.package/"$platform"/control ./package/DEBIAN/control
 	mkdir -p package/"$path_part"usr/opt/$PACKAGE_NAME
-	cp -rf ./LICENSE ./.sites ./.imgs ./zphisher.sh ./package/"$path_part"usr/opt/$PACKAGE_NAME
+	cp -rf ./LICENSE ./.sites ./.imgs ./instagram.sh ./package/"$path_part"usr/opt/$PACKAGE_NAME
 	cp -rf ./.package/launch.sh ./package/"$path_part"usr/bin/$PACKAGE_NAME
 	chmod 755 ./package/DEBIAN
-	dpkg-deb --build ./package $PACKAGE_NAME\_$ZPHISHER_VERSION\_$PACKAGE_ARCH.deb
+	dpkg-deb --build ./package $PACKAGE_NAME\_$INSTAGRAM_VERSION\_$PACKAGE_ARCH.deb
 }
 
 
