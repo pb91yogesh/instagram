@@ -17,7 +17,7 @@
 
 - Just, Clone this repository -
 ```
-$ git clone git://github.com/yogeshpcte/instagram.git
+$ git clone https://github.com/yogeshpcte/instagram
 ```
 
 - Change to cloned directory and run `bash instagram.sh` -
